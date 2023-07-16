@@ -74,7 +74,7 @@ watch([paises,page,search],()=>{
       :disabled="page<=1"
       :class="{'opacity-50' : page<=1}" 
       class="border border-gray-300 rounded px-8 py-0.5 hover:bg-gray-200"
-      @click="$event=>changePage(page-1)"
+      @click="changePage(page-1)"
       >
       Previo
     </button>
@@ -82,7 +82,7 @@ watch([paises,page,search],()=>{
       :disabled="page>=totalItems/itemsXPage"
       :class="{'opacity-50':page>=totalItems/itemsXPage}"
       class="border border-gray-300 rounded px-8 py-0.5 hover:bg-gray-200"
-      @click="$event=>changePage(page+1)"
+      @click="changePage(page+1)"
       >
       Siguiente
     </button>

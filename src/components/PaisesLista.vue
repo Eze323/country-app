@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from 'vue';
 import { Pais } from '../models/pais.model';
 import PaisCard from './PaisCard.vue';
 

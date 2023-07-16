@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineProps } from 'vue';
+
 import { Pais } from '../models/pais.model';
 
 interface Props{
